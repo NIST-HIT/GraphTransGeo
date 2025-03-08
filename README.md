@@ -12,8 +12,8 @@ conda activate graphtransgeo
 
 
 ## Install Dependencies
-```bash
 pip install torch torch-geometric numpy pandas matplotlib tqdm
+```
 ## Key Improvements
 
 1. **Feature Adapter**: Cross-dataset compatibility with different input dimensions
