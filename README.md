@@ -4,12 +4,13 @@
 This package contains the improved implementation of the GraphTransGeo++ method for IP geolocation using Graph Convolutional Networks (GCN).
 
 
-Environment Setup
-# Create and Activate a Python Environment
+##Environment Setup
+## Create and Activate a Python Environment
 conda create -n graphtransgeo python=3.8
+
 conda activate graphtransgeo
 
-# Install Dependencies
+## Install Dependencies
 pip install torch torch-geometric numpy pandas matplotlib tqdm
 ## Key Improvements
 
