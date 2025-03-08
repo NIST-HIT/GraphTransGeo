@@ -41,11 +41,11 @@ python visualize_training_curves.py --dataset New_York
 
 ## Performance Comparison
 
-| Dataset     | GCN MSE    | MLP MSE    | GCN MAE    | MLP MAE    | GCN Median | MLP Median |
-|-------------|------------|------------|------------|------------|------------|------------|
-| New York    | 6.00       | 3.51       | 1.95       | 1.49       | 213.75     | 224.83     |
-| Shanghai    | 137.39     | 7859.51    | 8.19       | 76.32      | 1151.90    | 12953.86   |
-| Los Angeles | 87.76      | 7569.97    | 6.66       | 76.15      | 914.38     | 12573.21   |
+| Dataset     | GCN MSE    | MLP MSE    | GCN MAE    | MLP MAE    |
+|-------------|------------|------------|------------|------------|
+| New York    | 5.90547       | 3.51       | 1.90       | 1.49       | 
+| Shanghai    | 24.4035    | 7859.51    | 3.48975       | 76.32      | 
+| Los Angeles | 87.76      | 7569.97    | 2.96476       | 76.15      | 
 
 ## Cross-Dataset Generalization
 
