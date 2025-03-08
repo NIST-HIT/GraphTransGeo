@@ -48,96 +48,129 @@ python visualize_training_curves.py --dataset New_York
 - `visualize_model_comparison.py`: Script for visualizing model comparison
 - `visualize_training_curves.py`: Script for visualizing training curves
 ## GraphTransGeo Project Structure
+# GraphTransGeo Project Structure
+
+## Core Model Files
+```
 GraphTransGeo/
-├── Core Model Files
-│   ├── model_graphtransgeo_gcn_optimized.py    # Optimized GCN model implementation
-│   ├── improved_gcn_model.py                  # Improved GCN model
-│   ├── train_gcn_optimized.py                 # Training script for optimized model
-│   ├── train_gcn.py                           # Standard GCN training script
-│   └── gcn_data_loader.py                     # Graph data loader
-│
-├── Data Processing & Analysis
-│   ├── examine_data_structure.py              # Data structure analysis
-│   ├── examine_npz.py                         # NPZ file inspection
-│   ├── create_dummy_data.py                   # Generate test data
-│   ├── analyze_current_limitations.py         # Analyze current limitations
-│   ├── analyze_results.py                     # Result analysis
-│   └── analyze_test_results.py                # Test result analysis
-│
-├── Visualization Tools
-│   ├── visualize_comprehensive_results.py     # Comprehensive result visualization
-│   ├── visualize_cross_dataset_comparison.py  # Cross-dataset comparison visualization
-│   ├── visualize_gcn_performance.py           # GCN performance visualization
-│   ├── visualize_gcn_results.py               # GCN result visualization
-│   ├── visualize_metrics.py                   # Metrics visualization
-│   ├── visualize_metrics_english.py           # English version of metrics visualization
-│   ├── visualize_model_comparison.py          # Model comparison visualization
-│   ├── visualize_model_performance.py         # Model performance visualization
-│   ├── visualize_performance.py               # General performance visualization
-│   └── visualize_training_curves.py           # Training curve visualization
-│
-├── Test Scripts
-│   ├── test_adapter_with_data.py              # Feature adapter testing
-│   ├── test_advanced_strategies.py            # Advanced strategy testing
-│   ├── test_enhanced_graph_builder.py         # Enhanced graph builder testing
-│   ├── test_feature_adapter.py                # Feature adapter testing
-│   └── test_improved_architecture.py          # Improved architecture testing
-│
-├── Execution Scripts
-│   ├── run_all_datasets.sh                    # Run all datasets
-│   ├── run_gcn_model.sh                       # Run the GCN model
-│   ├── run_gcn_optimized.sh                   # Run optimized GCN
-│   ├── run_improved_gcn.sh                    # Run improved GCN
-│   ├── run_optimized_model.sh                 # Run optimized model
-│   ├── run_test_model.sh                      # Run test model
-│   └── run_test_on_datasets.sh                # Run tests on datasets
-│
-├── Packaging & Reports
-│   ├── package_gcn_implementation.py          # Package GCN implementation
-│   ├── prepare_final_report.py                # Prepare final report
-│   └── prepare_results_package.py             # Prepare results package
-│
-├── Directory Structure
-│   ├── lib/                                   # Core library files
-│   │   ├── model/                             # Model core components
-│   │   ├── utils.py                           # Utility functions
-│   │   ├── layers.py                          # Layer implementations
-│   │   ├── sublayers.py                       # Sublayer implementations
-│   │   ├── sag.py                             # Spatial attention graph implementation
-│   │   ├── training/                          # Advanced training strategies
-│   │   ├── adapter/                           # Feature adaptation module
-│   │   ├── adapters/                          # Various adapter implementations
-│   │   └── graph_construction/                # Graph construction tools
-│   │
-│   ├── gcn_implementation/                    # GCN-specific implementations
-│   │   ├── train_gcn_optimized.py             # Optimized GCN training
-│   │   ├── gcn_data_loader.py                 # GCN data loading
-│   │   ├── verify_normalization.py            # Verify normalization effectiveness
-│   │   ├── verify_all_datasets.py             # Verify all datasets
-│   │   ├── visualize_gcn_results.py           # Visualize GCN results
-│   │   └── run_gcn_optimized.sh               # Run optimized GCN script
-│   │
-│   ├── asset/                                 # Resource files
-│   │   ├── data/                              # Dataset files
-│   │   │   ├── New_York/                      # New York dataset
-│   │   │   ├── Los_Angeles/                   # Los Angeles dataset
-│   │   │   └── Shanghai/                      # Shanghai dataset
-│   │   ├── model/                             # Model checkpoints
-│   │   ├── figures/                           # Visualization outputs
-│   │   └── log/                               # Training and test logs
-│   │
-│   ├── reports/                               # Report files
-│   │   ├── final_gcn_report.md                # Final GCN report
-│   │   ├── performance_analysis.md            # Performance analysis
-│   │   ├── model_comparison_report.md         # Model comparison report
-│   │   ├── current_limitations.md             # Current limitations analysis
-│   │   └── figures/                           # Performance visualization charts
-│   │
-│   ├── improved_package/                      # Improved package
-│   ├── package_output/                        # Packaged output
-│   └── optimization_plan/                     # Optimization plan
-│
-└── README.md                                  # Project documentation (English)
+├── model_graphtransgeo_gcn_optimized.py    # Optimized GCN model implementation
+├── improved_gcn_model.py                  # Improved GCN model
+├── train_gcn_optimized.py                 # Training script for optimized model
+├── train_gcn.py                           # Standard GCN training script
+└── gcn_data_loader.py                     # Graph data loader
+```
+
+## Data Processing & Analysis
+```
+├── examine_data_structure.py              # Data structure analysis
+├── examine_npz.py                         # NPZ file inspection
+├── create_dummy_data.py                   # Generate test data
+├── analyze_current_limitations.py         # Analyze current limitations
+├── analyze_results.py                     # Result analysis
+└── analyze_test_results.py                # Test result analysis
+```
+
+## Visualization Tools
+```
+├── visualize_comprehensive_results.py     # Comprehensive result visualization
+├── visualize_cross_dataset_comparison.py  # Cross-dataset comparison visualization
+├── visualize_gcn_performance.py           # GCN performance visualization
+├── visualize_gcn_results.py               # GCN result visualization
+├── visualize_metrics.py                   # Metrics visualization
+├── visualize_metrics_english.py           # English version of metrics visualization
+├── visualize_model_comparison.py          # Model comparison visualization
+├── visualize_model_performance.py         # Model performance visualization
+├── visualize_performance.py               # General performance visualization
+└── visualize_training_curves.py           # Training curve visualization
+```
+
+## Test Scripts
+```
+├── test_adapter_with_data.py              # Feature adapter testing
+├── test_advanced_strategies.py            # Advanced strategy testing
+├── test_enhanced_graph_builder.py         # Enhanced graph builder testing
+├── test_feature_adapter.py                # Feature adapter testing
+└── test_improved_architecture.py          # Improved architecture testing
+```
+
+## Execution Scripts
+```
+├── run_all_datasets.sh                    # Run all datasets
+├── run_gcn_model.sh                       # Run the GCN model
+├── run_gcn_optimized.sh                   # Run optimized GCN
+├── run_improved_gcn.sh                    # Run improved GCN
+├── run_optimized_model.sh                 # Run optimized model
+├── run_test_model.sh                      # Run test model
+└── run_test_on_datasets.sh                # Run tests on datasets
+```
+
+## Packaging & Reports
+```
+├── package_gcn_implementation.py          # Package GCN implementation
+├── prepare_final_report.py                # Prepare final report
+└── prepare_results_package.py             # Prepare results package
+```
+
+## Directory Structure
+```
+├── lib/                                   # Core library files
+│   ├── model/                             # Model core components
+│   ├── utils.py                           # Utility functions
+│   ├── layers.py                          # Layer implementations
+│   ├── sublayers.py                       # Sublayer implementations
+│   ├── sag.py                             # Spatial attention graph implementation
+│   ├── training/                          # Advanced training strategies
+│   ├── adapter/                           # Feature adaptation module
+│   ├── adapters/                          # Various adapter implementations
+│   └── graph_construction/                # Graph construction tools
+```
+
+## GCN Implementation
+```
+├── gcn_implementation/                    # GCN-specific implementations
+│   ├── train_gcn_optimized.py             # Optimized GCN training
+│   ├── gcn_data_loader.py                 # GCN data loading
+│   ├── verify_normalization.py            # Verify normalization effectiveness
+│   ├── verify_all_datasets.py             # Verify all datasets
+│   ├── visualize_gcn_results.py           # Visualize GCN results
+│   └── run_gcn_optimized.sh               # Run optimized GCN script
+```
+
+## Resources & Reports
+```
+├── asset/                                 # Resource files
+│   ├── data/                              # Dataset files
+│   │   ├── New_York/                      # New York dataset
+│   │   ├── Los_Angeles/                   # Los Angeles dataset
+│   │   └── Shanghai/                      # Shanghai dataset
+│   ├── model/                             # Model checkpoints
+│   ├── figures/                           # Visualization outputs
+│   └── log/                               # Training and test logs
+```
+
+## Reports
+```
+├── reports/                               # Report files
+│   ├── final_gcn_report.md                # Final GCN report
+│   ├── performance_analysis.md            # Performance analysis
+│   ├── model_comparison_report.md         # Model comparison report
+│   ├── current_limitations.md             # Current limitations analysis
+│   └── figures/                           # Performance visualization charts
+```
+
+## Additional Packages & Plans
+```
+├── improved_package/                      # Improved package
+├── package_output/                        # Packaged output
+└── optimization_plan/                     # Optimization plan
+```
+
+## Documentation
+```
+└── README.md                              # Project documentation (English)
+```
+
+
 
 ## Performance Comparison
 
