@@ -1,0 +1,5 @@
+datasets/Los_Angeles/data.csv filter=lfs diff=lfs merge=lfs -text
+datasets/Shanghai/data.csv filter=lfs diff=lfs merge=lfs -text
+datasets/New_York/data.csv filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+improved_package/ filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,2 @@
+2025-03-07 22:43:42,708 [INFO] Arguments: Namespace(dataset='New_York', data_dir='asset/data', hidden=256, num_layers=3, dropout=0.3, ensemble_size=3, epochs=5, batch_size=32, lr=0.001, weight_decay=1e-05, clip_grad=1.0, min_epochs=3, patience=10, hav_weight=0.3, epsilon=0.01, alpha=0.01, beta=0.5, use_feature_adapter=True, adapter_strategy='projection', target_dim=30, test_only=False, load_epoch=0, load_model=None, seed=42, log_dir='asset/log', model_dir='asset/model', fig_dir='asset/figures')
+2025-03-07 22:43:42,708 [INFO] Using device: cpu

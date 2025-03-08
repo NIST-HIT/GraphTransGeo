@@ -1,0 +1,4 @@
+Test Loss: 1880.536475, MSE: 1001.302490, Haversine: 879.233984
+Test MSE: 1001.302490
+Test MAE: 25.209242
+Median Distance Error: 3881.581293
