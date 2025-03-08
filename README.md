@@ -6,12 +6,15 @@ This package contains the improved implementation of the GraphTransGeo++ method 
 
 ##Environment Setup
 ## Create and Activate a Python Environment
+```bash
 conda create -n graphtransgeo python=3.8
-
 conda activate graphtransgeo
 
+
 ## Install Dependencies
+```bash
 pip install torch torch-geometric numpy pandas matplotlib tqdm
+```bash
 ## Key Improvements
 
 1. **Feature Adapter**: Cross-dataset compatibility with different input dimensions
