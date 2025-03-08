@@ -1,5 +1,6 @@
 # GraphTransGeo++ Improved GraphTransGeo Implementation
 专注于提升IP定位在对抗性环境下的鲁棒性与可信度，确保模型能够在恶意攻击和测量数据干扰的情况下仍保持稳定的推断能力。
+
 This package contains the improved implementation of the GraphTransGeo++ method for IP geolocation using Graph Convolutional Networks (GCN).
 
 ## Key Improvements
